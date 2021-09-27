@@ -20,3 +20,7 @@ git reset --hard "commit" //para volver en un punto anterior
 git log >> logs //para crear un documento que contenga los logs
 // si solo se pone un > se elimina el doc
 ```
+#### Merge (fusion)
+```
+git merge oneCol (dentro de master)
+```
