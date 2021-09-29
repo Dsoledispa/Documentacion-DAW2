@@ -49,4 +49,11 @@ git log
 //Solo quedara registrado el commit hecho en master
 //Ya estabas en la primera version, aunque si puedes volver
 //He podido volver a la ultima version, ademas que en el log vuelve a aparecer el commit de esta version sin que mencione el branch galeria
+//Ejercicio 4
+git branch dev
+git checkout dev
+git add index.html
+git commit -m "#2"
+git checkout master
+git merge dev
 ```
