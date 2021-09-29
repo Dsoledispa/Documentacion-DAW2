@@ -24,3 +24,18 @@ git log >> logs //para crear un documento que contenga los logs
 ```
 git merge oneCol (dentro de master)
 ```
+#### Layout
+```
+git add index.html
+git commit -m "primera version"
+//despues de apartar el contenido css en un fichero aparte
+git branch estructura
+git checkout estructura
+git branch
+git add index.html
+git commit -m "estructura de ficheros y carpetas"
+git branch galeria
+git branch
+git checkout galeria
+git branch
+```
