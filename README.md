@@ -38,4 +38,15 @@ git branch galeria
 git branch
 git checkout galeria
 git branch
+git add index.html
+git commit -m "modificación de bloques y galería"
+git log
+git log >> logs
+git checkout master
+git branch -D estructura
+git branch -D galeria
+git log
+//Solo quedara registrado el commit hecho en master
+//Ya estabas en la primera version, aunque si puedes volver
+//He podido volver a la ultima version, ademas que en el log vuelve a aparecer el commit de esta version sin que mencione el branch galeria
 ```
