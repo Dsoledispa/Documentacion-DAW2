@@ -58,3 +58,8 @@ git commit -m "#2"
 git checkout master
 git merge dev
 ```
+
+#### Bajar doc
+```
+git clone
+```
