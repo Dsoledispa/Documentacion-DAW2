@@ -73,14 +73,70 @@ git log
 git branch -D calendario
 git branch -D lista
 //Ejercicio 3
-
+git init
+git checkout -b issue53
+git add .
+git commit -m "issue53 V1"
+git branch master
+git checkout -b hotfix
+git add .
+git commit -m "Hostfix resuelto"
+git checkout master
+git merge hostfix
+git checkout issue53
 //Ejercicio 4
+//Caso 1
 git branch dev
 git checkout dev
 git add index.html
 git commit -m "#2"
 git checkout master
 git merge dev
+//Caso 2
+git checkout -b dev
+git add .
+git commit -m "#2"
+git add .
+git commit -m "#3"
+git checkout -b bugfix
+git add .
+git commit -m "#4"
+git checkout dev
+git merge bugfix
+git add .
+git commit -m "#5"
+git checkout master
+git merge dev
+git add .
+git commit -m "#6"
+//CASO 3
+git add .
+git commit -m "#1"
+git add .
+git commit -m "#2"
+git checkout -b dev1
+git add .
+git commit -m "#3"
+git add .
+git commit -m "#4"
+git checkout master
+git checkout -b bugfix
+git add .
+git commit -m "#5"
+git checkout master
+git merge bugfix
+git add .
+git commit -m "#6"
+git merge dev1
+git add .
+git commit -m "#7"
+git checkout -b dev2
+git add .
+git commit -m "#8"
+git checkout master
+git merge dev2
+git add .
+git commit -m "#9"
 ```
 
 #### Bajar doc
