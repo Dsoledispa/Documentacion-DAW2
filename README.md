@@ -53,6 +53,27 @@ git log
 //Ya estabas en la primera version, aunque si puedes volver
 //He podido volver a la ultima version, ademas que en el log vuelve a aparecer el commit de esta version sin que mencione el branch galeria
 /git status
+//Ejercicio 2
+git init
+git add -A
+git commit -m ""
+git branch calendario
+git branch lista
+git branch
+git add -A
+git commit -m "version con calendario"
+git checkout lista
+git add -A o git add .
+git commit -m "version con lista"
+git checkout master
+git merge calendario
+gir merge lista
+git branch
+git log
+git branch -D calendario
+git branch -D lista
+//Ejercicio 3
+
 //Ejercicio 4
 git branch dev
 git checkout dev
