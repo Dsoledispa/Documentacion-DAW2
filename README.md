@@ -93,6 +93,8 @@ git commit -m "#2"
 git checkout master
 git merge dev
 //Caso 2
+git add .
+git commit -m "#1"
 git checkout -b dev
 git add .
 git commit -m "#2"
