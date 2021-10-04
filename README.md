@@ -77,12 +77,12 @@ git init
 git checkout -b issue53
 git add .
 git commit -m "issue53 V1"
-git branch master
+git checkout master
 git checkout -b hotfix
 git add .
-git commit -m "Hostfix resuelto"
+git commit -m "Hotfix resuelto"
 git checkout master
-git merge hostfix
+git merge hotfix
 git checkout issue53
 //Ejercicio 4
 //Caso 1
