@@ -25,7 +25,7 @@ git log >> logs //para crear un documento que contenga los logs
 ```
 git merge oneCol (dentro de master)
 ```
-#### Layout
+#### Ejercicios
 ```
 git add index.html
 git commit -m "primera version"
@@ -47,9 +47,6 @@ git checkout master
 git branch -D estructura
 git branch -D galeria
 git log
-```
-#### Ejercicios
-```
 //Ejercicio 1
 //Solo quedara registrado el commit hecho en master
 //Ya estabas en la primera version, aunque si puedes volver
