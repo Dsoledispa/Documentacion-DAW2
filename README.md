@@ -32,6 +32,7 @@ git commit -m "primera version"
 //despues de apartar el contenido css en un fichero aparte
 git branch estructura
 git checkout estructura
+// tambien se puede hacer las dos lineas anteriores juntos con git checkout -b estructura
 git branch
 git add index.html
 git commit -m "estructura de ficheros y carpetas"
@@ -51,6 +52,7 @@ git log
 //Solo quedara registrado el commit hecho en master
 //Ya estabas en la primera version, aunque si puedes volver
 //He podido volver a la ultima version, ademas que en el log vuelve a aparecer el commit de esta version sin que mencione el branch galeria
+/git status
 //Ejercicio 4
 git branch dev
 git checkout dev
