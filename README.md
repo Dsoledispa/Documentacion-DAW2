@@ -145,3 +145,7 @@ git commit -m "#9"
 ```
 git clone
 ```
+#### Subir doc
+```
+git push origin main
+```
