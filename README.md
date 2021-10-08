@@ -143,7 +143,7 @@ git commit -m "#9"
 
 #### Bajar doc
 ```
-git clone
+git clone "url"
 ```
 #### Subir doc
 ```
