@@ -149,3 +149,7 @@ git clone "url"
 ```
 git push origin main
 ```
+#### Hacer un merge desde github
+```
+pull requests
+```
