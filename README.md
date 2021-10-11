@@ -152,4 +152,6 @@ git push origin main
 #### Hacer un merge desde github
 ```
 pull requests
+//eliminar rama secundaria
+git pull
 ```
